@@ -1,6 +1,7 @@
 import React from "react";
 import Card from "../components/card/card";
-import LineChart from "../components/lineChart/LineChart";
+import LineChartData from "../components/lineChart/LineChart";
+import BarChartData from "../components/barChart/BarChart";
 
 const Home = () => {
   return (
@@ -8,11 +9,21 @@ const Home = () => {
       <Card />
       <div className="row py-3">
         <div className="col-md-4">
-          <LineChart />
+          <LineChartData />
         </div>
         <div className="col-md-4">
           <div>progress bar</div>
         </div>
+        <div className="col-md-4">
+          <div>progress bar</div>
+        </div>
+      </div>
+
+      <div className="row py-3">
+        <div className="col-md-8">
+          <BarChartData />
+        </div>
+
         <div className="col-md-4">
           <div>progress bar</div>
         </div>

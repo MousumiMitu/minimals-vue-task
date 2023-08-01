@@ -1,12 +1,5 @@
 import React from "react";
-import {
-  LineChart,
-  Line,
-  Area,
-  ResponsiveContainer,
-  Tooltip,
-  AreaChart,
-} from "recharts";
+import { Area, ResponsiveContainer, Tooltip, AreaChart } from "recharts";
 import "./LineChart.css";
 
 const LineChartData = () => {
