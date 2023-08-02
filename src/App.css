@@ -7,3 +7,9 @@ body {
   background-color: #ffffff;
   color: #87939e;
 }
+
+.small-box {
+  width: 0.9rem;
+  height: 0.9rem;
+  background: #00a76f;
+}
