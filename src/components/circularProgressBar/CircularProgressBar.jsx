@@ -6,7 +6,7 @@ import GradientSVG from "./GarientSVG";
 const CircularProgressBar = ({ props }) => {
   const idCSS = "hello";
   const percentage = 66;
-  console.log(props);
+
   return (
     <div className="w-75">
       <GradientSVG />

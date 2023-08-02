@@ -3,6 +3,7 @@ import Card from "../components/card/card";
 import LineChartData from "../components/lineChart/LineChart";
 import BarChartData from "../components/barChart/BarChart";
 import CircularProgressBar from "../components/circularProgressBar/CircularProgressBar";
+import ProgressBar from "../components/progressBar/ProgressBar";
 
 const Home = () => {
   const cirData1 = [
@@ -25,7 +26,30 @@ const Home = () => {
               <LineChartData />
             </div>
             <div className="col-md-6 ">
-              <div>sdf</div>
+              <div className="shadow-sm p-4 rounded">
+                <h3 className="fs-5 text-black">Booked</h3>
+                <div className="py-2">
+                  <div className="d-flex justify-content-between">
+                    <small className="">Pending</small>
+                    <small className="fs-6 text-black">10.10</small>
+                  </div>
+                  <ProgressBar color="#ffab00" bar="15%" />
+                </div>
+                <div className="py-2">
+                  <div className="d-flex justify-content-between">
+                    <small className="">Canceled</small>
+                    <small className="fs-6 text-black">10.10</small>
+                  </div>
+                  <ProgressBar color="#FF5630" bar="25%" />
+                </div>
+                <div className="py-2">
+                  <div className="d-flex justify-content-between">
+                    <small className="">Sold</small>
+                    <small className="fs-6 text-black">10.10</small>
+                  </div>
+                  <ProgressBar color="#22C55E" bar="45%" />
+                </div>
+              </div>
             </div>
           </div>
 

@@ -13,3 +13,13 @@ body {
   height: 0.9rem;
   background: #00a76f;
 }
+
+.progress-bar {
+  margin: 10px auto;
+  height: 8px;
+  background: #edeff1;
+}
+
+.bar {
+  min-width: 1%;
+}
