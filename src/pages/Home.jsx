@@ -4,6 +4,7 @@ import LineChartData from "../components/lineChart/LineChart";
 import BarChartData from "../components/barChart/BarChart";
 import CircularProgressBar from "../components/circularProgressBar/CircularProgressBar";
 import ProgressBar from "../components/progressBar/ProgressBar";
+import ReviewCart from "../components/reviewCart/ReviewCart";
 
 const Home = () => {
   const cirData1 = [
@@ -54,25 +55,25 @@ const Home = () => {
           </div>
 
           <div className="row py-3 mx-1">
-            <div className="col-md-6 shadow ">
-              <div className="row py-5 px-3">
-                <div className="m-auto col-5">
+            <div className="col-md-6 shadow-sm ">
+              <div className="row py-5 px-3 ">
+                <div className=" col-5 my-auto ">
                   <CircularProgressBar cirData1={"#38CE90"} />
                 </div>
                 <div className="my-auto col-7">
                   <h3>38,566</h3>
-                  <span className="fs-6">Pending for payment</span>
+                  <small>Pending for payment</small>
                 </div>
               </div>
             </div>
-            <div className="col-md-6 shadow">
+            <div className="col-md-6 shadow-sm">
               <div className="row py-5 px-3 ">
-                <div className="m-auto  col-5">
+                <div className=" col-5">
                   <CircularProgressBar />
                 </div>
                 <div className="my-auto col-7">
                   <h3>38,566</h3>
-                  <span className="fs-6">Pending for payment</span>
+                  <small>Pending for payment</small>
                 </div>
               </div>
             </div>
@@ -110,7 +111,7 @@ const Home = () => {
         </div>
 
         <div className="col-md-4">
-          <div>progress bar</div>
+          <ReviewCart />
         </div>
       </div>
     </div>

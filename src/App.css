@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Inter:wght@400;500;600;700;800;900&family=Poppins:wght@400;500;700&family=Roboto+Mono:ital,wght@0,100;0,400;0,500;0,600;1,400;1,700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -6,6 +8,8 @@ html,
 body {
   background-color: #ffffff;
   color: #87939e;
+
+  font-family: "Poppins", sans-serif;
 }
 
 .small-box {
@@ -23,3 +27,53 @@ body {
 .bar {
   min-width: 1%;
 }
+/* =====sidebar start==== */
+.sidebar-container {
+  overflow: auto;
+}
+.border-style {
+  border-right: 1px dashed #d7dadd;
+  /* overflow: auto; */
+  /* transition: 0.3s ease; */
+}
+.sidebar-container::-webkit-scrollbar {
+  width: 5px;
+}
+.sidebar-container::-webkit-scrollbar-thumb {
+  background: transparent;
+}
+.sidebar-container:hover {
+  overflow-y: auto;
+}
+.sidebar-container:hover::-webkit-scrollbar-thumb {
+  background: #b4bcc3;
+  border-radius: 10px;
+}
+.collapsible-btn {
+  width: 25px;
+  height: 25px;
+  border: 1px dashed #d7dadd;
+  right: -12.5px;
+  top: 15px;
+  background: #ffffff;
+}
+.sidebar-navItem {
+}
+.sidebar-navItem:hover {
+  background: #f6f7f8;
+}
+.sidebar-container .active-color {
+  background: #dcf1ea;
+  color: #0aba80;
+}
+.sidebar-container .active-color:hover {
+  background: #cdf0e4;
+}
+.logo-btn {
+  width: 40px;
+}
+/* ::-webkit-scrollbar-thumb {
+  background: #c5c4c4;
+} */
+
+/* =====sidebar end==== */

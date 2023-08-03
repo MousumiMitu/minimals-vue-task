@@ -57,7 +57,26 @@ const data = [
 
 const BarChartData = () => {
   return (
-    <div className="shadow-sm  rounded">
+    <div className="shadow-sm  rounded p-4">
+      <div className="d-flex justify-content-between">
+        <div>
+          <h3 className="fs-5 text-black">Statistics</h3>
+          <p className="fs-6 fw-semibold">
+            (+43% Sold | +12% Canceled) than last year
+          </p>
+        </div>
+        <div class="position-relative overflow-hidden">
+          <button
+            class="btn bg-secondary-subtle btn-sm dropdown-toggle relative"
+            type="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            Year
+          </button>
+          <ul class="dropdown-menu ">he</ul>
+        </div>
+      </div>
       <ResponsiveContainer width="100%" height={400}>
         <BarChart data={data}>
           <Legend

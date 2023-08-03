@@ -4,8 +4,8 @@ const GradientSVG = () => {
   const idCSS = "hello";
   const gradientTransform = `rotate(90)`;
   return (
-    <div>
-      <svg style={{ height: 0 }}>
+    <div style={{ height: "0" }}>
+      <svg>
         <defs>
           <linearGradient id={idCSS} gradientTransform={gradientTransform}>
             <stop offset="16.29%" stopColor="#6CFFBA" />

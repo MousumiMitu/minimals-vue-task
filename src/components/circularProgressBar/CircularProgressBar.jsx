@@ -8,7 +8,7 @@ const CircularProgressBar = ({ props }) => {
   const percentage = 66;
 
   return (
-    <div className="w-75">
+    <div className="w-75 m-auto">
       <GradientSVG />
       <CircularProgressbar
         strokeWidth={8}
