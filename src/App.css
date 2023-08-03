@@ -27,6 +27,16 @@ body {
 .bar {
   min-width: 1%;
 }
+.arrow-btn {
+  width: 30px;
+  height: 30px;
+}
+.arrow-btn:hover {
+  background: #f6f5f5;
+}
+.user-img {
+  width: 20%;
+}
 /* =====sidebar start==== */
 .sidebar-container {
   overflow: auto;
