@@ -57,8 +57,8 @@ const data = [
 
 const BarChartData = () => {
   return (
-    <div className="shadow-sm  rounded p-4">
-      <div className="d-flex justify-content-between">
+    <div className="shadow-sm  rounded p-2 p-md-4">
+      <div className="d-md-flex justify-content-between">
         <div>
           <h3 className="fs-5 text-black">Statistics</h3>
           <p className="fs-6 fw-semibold">

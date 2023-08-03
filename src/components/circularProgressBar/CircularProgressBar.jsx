@@ -3,13 +3,15 @@ import { CircularProgressbar } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
 import GradientSVG from "./GarientSVG";
 
-const CircularProgressBar = ({ props }) => {
+const CircularProgressBar = ({ color1, color2 }) => {
   const idCSS = "hello";
   const percentage = 66;
+  console.log("hhh", color2);
 
   return (
     <div className="w-75 m-auto">
-      <GradientSVG />
+      <GradientSVG color1={color1} color2={color2} />
+
       <CircularProgressbar
         strokeWidth={8}
         value={percentage}

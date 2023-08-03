@@ -4,7 +4,7 @@ import { AiFillStar, AiOutlineStar } from "react-icons/ai";
 
 const ReviewCart = () => {
   return (
-    <div className="shadow-sm rounded p-4">
+    <div className="shadow-sm rounded p-md-4">
       <div className="d-flex justify-content-between">
         <div>
           <h3 className="fs-5 text-black">Customer Reviews</h3>
@@ -20,11 +20,11 @@ const ReviewCart = () => {
         </div>
       </div>
 
-      <div className="d-flex py-3">
+      <div className="d-md-flex  py-3">
         <div className="user-img">
           <img src="man.png" alt="" className="w-100" />
         </div>
-        <div className="my-auto ps-4">
+        <div className="my-auto ps-md-4 pt-2 pt-sm-0">
           <h5 className="fs-6">Jayway sfom</h5>
           <small>Posted 3aug 2030 2.35pm</small>
         </div>
@@ -42,21 +42,21 @@ const ReviewCart = () => {
         consequuntur amet est ullam necessitatibus perspiciatis, eius sint
       </p>
 
-      <div className="d-flex">
+      <div className="d-flex ">
         <small
-          className="bg-body-secondary px-2 py-1 rounded me-2"
+          className="bg-body-secondary px-2 py-1 my-auto rounded me-2"
           style={{ fontSize: "10px" }}
         >
           Great service
         </small>
         <small
-          className="bg-body-secondary px-2 py-1 rounded me-2"
+          className="bg-body-secondary px-2 py-1 my-auto rounded me-2"
           style={{ fontSize: "10px" }}
         >
           recommended
         </small>
         <small
-          className="bg-body-secondary px-2 py-1 rounded me-2"
+          className="bg-body-secondary px-2 py-1 my-auto rounded me-2"
           style={{ fontSize: "10px" }}
         >
           Best price
@@ -65,7 +65,7 @@ const ReviewCart = () => {
 
       <hr />
       <div className="row py-2 gx-2 ">
-        <div className="col-md-6 ">
+        <div className="col-md-6 pb-2 pb-md-0">
           <button className="bg-danger-subtle w-100 border-0 text-danger py-1 rounded">
             Reject
           </button>

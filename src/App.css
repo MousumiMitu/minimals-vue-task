@@ -97,6 +97,14 @@ ul li {
   height: 40px;
 }
 .navItems:hover {
-  background: #fffffff7;
+  background: #ffffff43;
 }
 /* =====navbar end==== */
+
+.sml-desc {
+  font-size: 0.7rem;
+}
+.book-img {
+  height: 200px;
+  object-fit: cover;
+}

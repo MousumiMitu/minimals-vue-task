@@ -4,8 +4,8 @@ import "./card.css";
 const Card = () => {
   return (
     <div className="row ">
-      <div className="col-sm-4 ">
-        <div className="shadow-sm d-flex justify-content-between rounded p-4 my-auto">
+      <div className="col-lg-4 ">
+        <div className="shadow-sm d-flex justify-content-between rounded p-2 p-md-4 my-auto">
           <div className=" my-auto">
             <h3 className="fs-2 fw-semibold text-black">741k</h3>
             <span className="fw-medium">Total Booking</span>
@@ -15,8 +15,8 @@ const Card = () => {
           </div>
         </div>
       </div>
-      <div className="col-sm-4">
-        <div className="shadow-sm d-flex justify-content-between rounded p-4 my-auto">
+      <div className="col-lg-4">
+        <div className="shadow-sm d-flex justify-content-between rounded p-2 p-md-4 my-auto">
           <div className=" my-auto">
             <h3 className="fs-2 fw-semibold text-black">741k</h3>
             <span className="fw-medium">Total Booking</span>
@@ -27,8 +27,8 @@ const Card = () => {
         </div>
       </div>
 
-      <div className="col-sm-4">
-        <div className="shadow-sm d-flex justify-content-between rounded p-4 my-auto">
+      <div className="col-lg-4">
+        <div className="shadow-sm d-flex justify-content-between rounded p-2 p-md-4 my-auto">
           <div className=" my-auto">
             <h3 className="fs-2 fw-semibold text-black">741k</h3>
             <span className="fw-medium">Total Booking</span>

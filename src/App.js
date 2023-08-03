@@ -7,7 +7,7 @@ function App() {
   const [collapse, setCollapse] = useState(true);
   return (
     <div className="d-flex ">
-      <div>
+      <div className="d-lg-block d-none">
         <SideBar />
       </div>
 

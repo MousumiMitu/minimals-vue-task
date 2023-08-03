@@ -1,6 +1,6 @@
 import React from "react";
 
-const GradientSVG = () => {
+const GradientSVG = ({ color1, color2 }) => {
   const idCSS = "hello";
   const gradientTransform = `rotate(90)`;
   return (

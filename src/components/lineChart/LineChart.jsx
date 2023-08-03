@@ -15,7 +15,7 @@ const LineChartData = () => {
   ];
 
   return (
-    <div className="shadow-sm  rounded w-100 p-4 line-chart">
+    <div className="shadow-sm  rounded w-100 p-2 p-md-4 line-chart">
       <div className="d-flex justify-content-between pb-3">
         <div>
           <h6>Total Incomes</h6>
