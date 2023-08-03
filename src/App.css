@@ -11,7 +11,9 @@ body {
 
   font-family: "Poppins", sans-serif;
 }
-
+ul li {
+  list-style: none;
+}
 .small-box {
   width: 0.9rem;
   height: 0.9rem;
@@ -43,8 +45,6 @@ body {
 }
 .border-style {
   border-right: 1px dashed #d7dadd;
-  /* overflow: auto; */
-  /* transition: 0.3s ease; */
 }
 .sidebar-container::-webkit-scrollbar {
   width: 5px;
@@ -66,9 +66,9 @@ body {
   right: -12.5px;
   top: 15px;
   background: #ffffff;
+  z-index: 1101 !important;
 }
-.sidebar-navItem {
-}
+
 .sidebar-navItem:hover {
   background: #f6f7f8;
 }
@@ -82,8 +82,21 @@ body {
 .logo-btn {
   width: 40px;
 }
-/* ::-webkit-scrollbar-thumb {
-  background: #c5c4c4;
-} */
-
 /* =====sidebar end==== */
+
+/* =====navbar start==== */
+.sticky-nav {
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-color: #faf9f9f4;
+  z-index: 999 !important;
+}
+.navItems {
+  width: 40px;
+  height: 40px;
+}
+.navItems:hover {
+  background: #fffffff7;
+}
+/* =====navbar end==== */
